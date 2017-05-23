@@ -1,6 +1,6 @@
 {
   "name": "postcss-typescript-kickstart",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple boilerplate to kick start your new PostCSS plugin with TypeScript",
   "main": "dist/index.js",
   "scripts": {
