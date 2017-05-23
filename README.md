@@ -15,7 +15,7 @@ Clone the boilerplate and create your own git repo.
 git clone git@github.com:ezavile/postcss-typescript-kickstart.git
 ```
 
-Install the dependencies and start the server.
+Install the dependencies.
 
 ```javascript
 npm/yarn install
@@ -32,9 +32,25 @@ To compile TypeScript files and watch for changes.
 ```javascript
 npm run compile:watch
 ```
-Lint the code and generate a code coverage report. Anything less than 100% coverage will throw an error.
+
+Lint the source, then run the unit tests.
 ```javascript
-npm run test
+npm test
+```
+
+Continuously run the unit tests as you make changes to the source and test files themselves.
+```javascript
+npm run test:watch
+```
+
+Lint the source.
+```javascript
+npm run lint
+```
+
+Generate a code coverage report. Anything less than 100% coverage will throw an error.
+```javascript
+npm run report-coverage
 ```
 
 ## Thanks
